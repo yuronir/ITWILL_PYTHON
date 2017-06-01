@@ -29,7 +29,7 @@ for i in range(1,10):
 #파일 리스트에 입력
 for i in range(int(file.readline())):
     temp = file.readline().split(' ')
-    inp.append([temp[0],int(temp[1]),int(temp[2])])
+    inp.append([temp[0],int(temp[1]), int(temp[2])])
 
 #각 질답에 대해 정답일 수 없는 조합 제거
 #i 예시 : ['123',1,1]

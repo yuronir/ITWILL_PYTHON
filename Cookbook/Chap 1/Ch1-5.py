@@ -1,9 +1,10 @@
-'''
-1.5) 우선순위 큐(Priority Queue) 구현
+#######################################################################################
+# 1.5) 우선순위 큐(Priority Queue) 구현
+#
+# heapq : heappush(list, (priority, index, item))
+# class : __repr__ : print 시에 작동
+#######################################################################################
 
-heapq : heappush(list, (priority, index, item))
-class : __repr__ : print 시에 작동
-'''
 import heapq
 
 
